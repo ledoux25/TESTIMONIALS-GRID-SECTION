@@ -129,21 +129,25 @@ main{
     body{
         overflow:unset;
         height: max-content;
+        align-items: center;
+        justify-content: center;
     }
     main{
-        width: 100%;
-        padding: 20px;
-        grid-template-columns: 1!important;
+        width: 90%;
+        position: relative;
+        left: 34%;
+        transform: translate(-50%);
+        grid-template-columns: 10px, auto, 300px!important;
         grid-template-rows: 3;
         grid-auto-columns: minmax(100px, auto);
     }
     .card{
-        width: 270px!important;
+        width: 250px!important;
         border-radius: 5px;
     }
     #Daniel{
-        grid-column: 1;
-        grid-row: 1/1;
+        grid-column: 2;
+        grid-row: 1;
         background-color: $Moderate-violet;
         overflow: hidden;
         position: relative;
@@ -151,26 +155,26 @@ main{
     }
     
     #Jonathan{
-        grid-column: 1/1;
+        grid-column: 2;
         grid-row: 4;
         background-color: $Very-dark-grayish-blue;
     }
     
     #Kira{
-        grid-column: 1/1;
+        grid-column: 2;
         grid-row: 5/5;
         background-color: $White;
         color: $Very-dark-grayish-blue;
     }
     
     #Jeanette{
-        grid-column: 1/1;
+        grid-column: 2;
         background-color: $White;
         color: $Very-dark-grayish-blue;
     }
     
     #Patrick{
-        grid-column: 1/1;
+        grid-column: 2;
         grid-row: 2/2;
         background-color: $Very-dark-blackish-blue;
     

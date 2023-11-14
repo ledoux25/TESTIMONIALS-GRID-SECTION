@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ledoux25/TESTIMONIALS-GRID-SECTION]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ledoux25.github.io/TESTIMONIALS-GRID-SECTION/](https://your-live-site-url.com)
 
 ## My process
 
