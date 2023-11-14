@@ -124,53 +124,56 @@ main {
 
 @media screen and (max-width: 375px) {
   body {
-    overflow: unset;
+    height: 0;
     height: -moz-max-content;
     height: max-content;
     align-items: center;
     justify-content: center;
   }
   main {
-    width: 90%;
+    width: 0%;
+    right: 40%;
     position: relative;
-    left: 34%;
-    transform: translate(-50%);
-    grid-template-columns: 10px, auto, 300px !important;
-    grid-template-rows: 3;
-    grid-auto-columns: minmax(100px, auto);
+    grid-template-columns: 1;
+    grid-template-rows: 5;
   }
   .card {
-    width: 250px !important;
+    width: 200px !important;
     border-radius: 5px;
     position: relative;
-    left: 10%;
+  }
+  .card h2 {
+    font-size: 19px;
+  }
+  .card span {
+    font-size: 11px;
   }
   #Daniel {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 0;
+    grid-row: 0;
     background-color: hsl(263, 68%, 61%);
     overflow: hidden;
     position: relative;
     z-index: -2;
   }
   #Jonathan {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
     background-color: hsl(217, 19%, 35%);
   }
   #Kira {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 5/5;
     background-color: hsl(0, 0%, 100%);
     color: hsl(217, 19%, 35%);
   }
   #Jeanette {
-    grid-column: 2;
+    grid-column: 1;
     background-color: hsl(0, 0%, 100%);
     color: hsl(217, 19%, 35%);
   }
   #Patrick {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2/2;
     background-color: hsl(219, 29%, 14%);
   }
